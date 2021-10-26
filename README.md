@@ -1,6 +1,6 @@
 # ServerClient-IPCMechanisms
 
-Implementation of a server client program that speaks to each other using one of three possible IPC mechanisms. The client connects to the server, who defines a 
+Implementation of a server client program that speaks to each other using one of three possible IPC mechanisms (named pipes, message queueing, shared memory). The client connects to the server, who defines a 
 communication protocol, and then the client sends properly formulated messages over a communication pipe. 
 
 The server hosts electocardiogram points of 15 patients suffering from various cardiac diseases. The client is able to request and recieve data points in different formats.
