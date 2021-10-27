@@ -4,7 +4,7 @@ Implementation of a server client program that speaks to each other using one of
 communication protocol, and then the client sends properly formulated messages over a communication pipe. 
 
 The server hosts electocardiogram points of 15 patients suffering from various cardiac diseases. The client is able to request and recieve data points in different formats.
-The client is also able to request a file transfer, where the server will send several segments depedning on the buffer size to a new file. The file will be completley copied
+The client is also able to request a file transfer, where the server will send several segments depending on the buffer size to a new file. The file will be completley copied
 and transferred to a new directory after this process is done.
 
 I just created this repository so I could have this project on my main github account
